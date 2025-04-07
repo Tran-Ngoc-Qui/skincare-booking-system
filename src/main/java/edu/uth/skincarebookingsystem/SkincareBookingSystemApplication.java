@@ -12,20 +12,3 @@ public class SkincareBookingSystemApplication {
 	}
 
 }
-//Lam viec vơi cddl
-//JPA
-//ORM - Object Relation Mapping
-/*
-Anh xa 1 class trong java xuong duoi csdl (Code first)
-Class Student { => Table
-    String Code, => Column
-    String FullName => Column
-}
-Cache duoc cac truy van   => performance
-Hibernate
-Spring DATA JPA
-Herberate, EclípeLink, DataNucLues ===> JPA
-Entity Annotion in JPA
-
-
- */
