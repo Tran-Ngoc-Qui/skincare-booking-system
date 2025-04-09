@@ -12,4 +12,10 @@ public class UserServices {
         return userRepositories.findByUsername(username);
     }
     // trien khai tiep cac methods save, detele
+    public boolean existsByUsername(String username) {
+        return true;
+    }
+    public User createUser(User user) {
+        return userRepositories.save(user);
+    }
 }
